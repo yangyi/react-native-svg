@@ -124,6 +124,7 @@ public class SvgView extends View {
                 mTargetTag,
                 type,
                 ev,
+                ev.getEventTime(),
                 ev.getX(),
                 ev.getY(),
                 mTouchEventCoalescingKeyHelper));
